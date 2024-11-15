@@ -35,7 +35,7 @@ body {
 .header__link {
   font-size: 18px;
   line-height: 21.13px;
-  text-underline-offset: 3px;
+  text-underline-position: under;
   letter-spacing: 1%;
 }
 .header__link_active {
@@ -56,7 +56,7 @@ body {
   font-weight: normal;
   padding-left: 134px;
   font-size: 18px;
-  text-underline-offset: 5px;
+  text-underline-position: under;
   line-height: 24.3px;
 }
 .cover {
@@ -137,7 +137,7 @@ body {
   font-weight: 500;
 }
 .lots {
-  padding: 179px 24px 146px;
+  padding: 179px 24px 182px;
 }
 
 .lots__heading {
@@ -199,7 +199,7 @@ body {
   padding: 51px 40px 0px;
   line-height: 26.4px;
   text-transform: uppercase;
-  text-underline-offset: 3px;
+  text-underline-offset: 2px;
 }
 .card__text {
   color: #fff;
@@ -218,4 +218,77 @@ body {
   padding-top: 30px;
   padding-left: 40px;
   font-size: 20px;
+  text-underline-position: under;
+}
+.about {
+  padding: 0px 24px 180px;
+}
+.about__column {
+  display: grid;
+  grid-template-columns: 334px auto;
+  gap: 8px 24px;
+}
+.about__logo {
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 150px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+}
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+.about__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  align-content: center;
+  padding-top: 2px;
+}
+.about__text {
+  font-size: 20px;
+  line-height: 24px;
+  grid-column-start: -1;
+  grid-column-end: -2;
+  display: grid;
+  gap: 24px;
+}
+.footer {
+  padding: 0px 50px 88px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__address {
+  font-size: 18px;
+  text-underline-position: under;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24.3px;
+}
+.footer__menu {
+  padding-left: 35px;
+  font-size: 18px;
+}
+
+.footer__menu-list {
+  list-style: none;
+  text-align: center;
+  text-underline-position: under;
+}
+.footer__menu-link_active {
+  text-decoration: none;
+}
+.footer__social-list {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
 }
