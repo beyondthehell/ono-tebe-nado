@@ -36,11 +36,9 @@ body {
   font-size: 18px;
   line-height: 21.13px;
   text-underline-position: under;
-  letter-spacing: 1%;
 }
 .header__link_active {
   text-decoration: none;
-  letter-spacing: 1%;
 }
 .header__logo {
   width: 148px;
@@ -101,12 +99,10 @@ body {
 .aligned-text_center {
   text-align: center;
   line-height: 100px;
-  
 }
 .aligned-text_right {
   text-align: right;
   line-height: 100px;
-  
 }
 .letter-spacing-extended {
   letter-spacing: 60px;
@@ -125,7 +121,6 @@ body {
   display: flex;
   align-items: center;
   gap: 79px;
-
 }
 .cover__description-text {
   word-spacing: 19px;
@@ -142,7 +137,7 @@ body {
 
 .lots__heading {
   padding-left: 40px;
-  padding-bottom: 27px; 
+  padding-bottom: 27px;
   font-size: 40px;
   text-transform: uppercase;
 }
@@ -150,7 +145,6 @@ body {
   list-style: none;
   display: flex;
   gap: 25px;
-
 }
 .lots__card-list-item {
   flex-grow: 1;
@@ -173,7 +167,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
@@ -195,7 +188,7 @@ body {
   color: #fff;
   position: relative;
   z-index: 3;
-  text-decoration: underline; 
+  text-decoration: underline;
   padding: 51px 40px 0px;
   line-height: 26.4px;
   text-transform: uppercase;
