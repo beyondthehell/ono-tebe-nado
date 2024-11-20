@@ -47,8 +47,10 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 24.3px;
-  padding-left: 134px;
   text-underline-position: under;
+}
+.header__address {
+  padding-left: 134px;
 }
 
 .cover {
@@ -247,14 +249,14 @@
   display: flex;
   justify-content: space-between;
 }
-.footer__address {
+/*.footer__address {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 24.3px;
   text-underline-position: under;
-}
+}*/
 .footer__menu {
   font-size: 18px;
   padding-left: 35px;
